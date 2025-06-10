@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div id="menu">
+    <img src="icon-menu.svg" id="iconMenu">
+    <div id="meniTel">
+      <img src="icon-close.svg" id="closeTel"><br>
+      Collections<br>
+      Men<br>
+      Women<br>
+      About<br>
+      Contact
+    </div>
+    <img src="logo.svg">
+    <button>Collections</button>
+    <button>Men</button>
+    <button>Women</button>
+    <button>About</button>
+    <button>Contact</button>
+    <img src="icon-cart.svg" id="korpa">
+    <div id="korpaOtv">
+      cart
+      <hr>
+      <div id="korpaPisi">Your cart is empty.</div><br>
+    </div>
+    <img src="image-avatar.png" id="avatar">
+  </div>
+
+  <hr>
+
+  <div id="product">
+    <div id="slike">
+      <div id="glavna">
+        <img src="image-product-1.jpg" id="glavnaSl">
+      </div>
+      <div id="sporedne">
+        <img src="image-product-2.jpg" id="sporedna1">
+        <img src="image-product-3.jpg" id="sporedna2">
+        <img src="image-product-4.jpg" id="sporedna3">
+      </div>
+    </div>
+    <div id="slikeTel">
+      <img src="icon-previous.svg" id="a">
+      <img src="image-product-1.jpg" id="b">
+      <img src="icon-next.svg" id="c">
+    </div>
+    <div id="opis">
+      <h6>Sneaker Company</h6>
+
+      <h1>Fall Limited Edition Sneakers</h1>
+
+      <p>These low-profile sneakers are your perfect casual wear companion. Featuring a 
+      durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+
+      <div id="cena"><div id="cenaTr">$125.00</div> <div id="popust">50%</div></div>
+      
+      <div id="staraCena">$250.00</div>
+
+      <div id="dugmici">
+        <div id="kolicina"><button id="minus"><img src="icon-minus.svg"></button><div id="kol">0</div><button id="plus"><img src="icon-plus.svg"></button></div>
+        <button id="dodaj"><img src="icon-cart.svg" id="cart">Add to cart</button>
+      </div>
+    </div>
+  </div>
+  <div id="iskacuci">
+    <div id="gore"><img src="icon-close.svg" id="close"></div>
+    <div id="sredina">
+      <img src="icon-previous.svg" id="prev">
+      <img src="image-product-1.jpg" id="iskacuci1">
+      <img src="icon-next.svg" id="next">
+    </div>
+    <div id="dole">
+      <img src="image-product-2.jpg" id="iskacuci2">
+      <img src="image-product-3.jpg" id="iskacuci3">
+      <img src="image-product-4.jpg" id="iskacuci4">
+    </div>
+    
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">jovanao</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

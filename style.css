@@ -1,0 +1,313 @@
+#menu button {
+    background-color: transparent;
+    color: grey;
+    border: none;
+}
+#menu button:hover {
+    cursor: pointer;
+    border-bottom: 2px solid orange;
+    color: black;
+}
+#menu #avatar {
+    height: 40px;
+}
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+hr {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#product {
+    margin: 55px;
+    display: flex;
+}
+#slike {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sporedne {
+    display: flex;
+}
+#slike, #opis {
+    width: 50%;
+}
+#slike #glavna {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#slike #glavna #glavnaSl {
+    width: 65%;
+}
+#glavnaSl:hover, #sporedna1:hover, #sporedna2:hover, #sporedna3:hover {
+    opacity: 0.3;
+}
+#glavnaSl:hover {
+    cursor: pointer;
+}
+#slike #sporedne {
+    justify-content: center;
+    align-items: center;
+    margin-left: 13px;
+}
+#slike #sporedne #sporedna1, #slike #sporedne #sporedna2, #slike #sporedne #sporedna3, #slike #sporedne #sporedna4 {
+    width: 20%;
+    margin-right: 20px;
+}
+#opis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#opis h6 {
+    text-transform: uppercase;
+    color: grey;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+#opis h1 {
+    font-size: 50px;
+    margin-top: 5px;
+}
+#opis p {
+    color: grey;
+}
+#cena {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 5px;
+}
+#cena #cenaTr {
+    font-size: 30px;
+    font-weight: bold;
+}
+#cena #popust {
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-radius: 5%;
+    height: 25px;
+    margin-top: 5px;
+}
+#staraCena {
+    text-decoration: line-through;
+    color: grey;
+    font-weight: bold;
+}
+#dugmici {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 20px;
+}
+#dugmici #dodaj {
+    background-color: orange;
+    color: black;
+    border-radius: 5%;
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+#kolicina {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: whitesmoke;
+}
+#kolicina #minus, #kolicina #plus {
+    background-color: transparent;
+    border: none;
+}
+#kolicina #minus:hover, #kolicina #plus:hover, #dugmici #dodaj:hover {
+    cursor: pointer;
+}
+#kolicina #plus img {
+    margin-top: 5px;
+}
+#iskacuci {
+    display: none;
+    flex-direction: column;
+    width: 40%;
+    background-color: transparent;
+    z-index: 15;
+    position: relative;
+    margin: auto;
+    margin-top: -700px;
+}
+#iskacuci #gore {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+#iskacuci #sredina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#iskacuci #sredina #iskacuci1 {
+    width: 80%;
+}
+#iskacuci #sredina #prev, #iskacuci #sredina #next {
+    width: 5%;
+    height: 5%;
+    background-color: white;
+    border-radius: 50%;
+}
+#iskacuci #sredina #prev:hover, #iskacuci #sredina #next:hover {
+    cursor: pointer;
+    color: orange;
+}
+#iskacuci #dole {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+#iskacuci #dole img {
+    width: 28%;
+}
+#iskacuci #gore #close:hover {
+    cursor: pointer;
+    color: orange;
+}
+#iskacuci1:hover, #iskacuci2:hover, #iskacuci3:hover, #iskacuci4:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+#avatar:hover {
+    border: solid;
+    border-color: orange;
+    border-width: 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#korpa:hover {
+    color: black;
+    cursor: pointer;
+}
+#korpaOtv {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    left: 1200px;
+    top: 50px;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px grey;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+#korpaOtv hr {
+    width: 100%;
+    margin-left: 50px;
+}
+#korpaOtv #korpaPisi {
+    text-align: center;
+    color: grey;
+    display: flex;
+}
+.slicicaKorpa {
+    width: 50px;
+}
+.kantica {
+    width: 25px;
+    height: 25px;
+    margin-top: 50px;
+}
+#slikeTel {
+    display: none;
+}
+#iconMenu {
+    display: none;
+}
+#meniTel {
+    display: none;
+}
+
+@media screen and (max-width:750px){
+    #menu button{
+        display: none;
+    }
+    #product {
+        flex-direction: column;
+        width: 100%;
+    }
+    #product #slike {
+        display: none;
+    }
+    #product #opis {
+        width: 100%;
+    }
+    #product #opis #dugmici {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #slikeTel {
+        display: flex;
+        width: 100%;
+    }
+    #slikeTel #b {
+        width: 90%;
+    }
+    #slikeTel #a, #slikeTel #c {
+        width: 5%;
+        height: 25px;
+        margin-top: 250px;
+        background-color: white;
+        border-radius: 50%;
+    }
+    #slikeTel #a:hover, #slikeTel #c:hover{
+        cursor: pointer;
+    }
+    hr{
+        width: 100%;
+    }
+    #iconMenu {
+        display: block;
+    }
+    #meniTel {
+        flex-direction: column;
+        position: absolute;
+        z-index: 5;
+        width: 50%;
+        background-color: white;
+        height: 100%;
+        top: 0;
+        left: 0;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    #meniTel img{
+        width: 25px;
+    }
+    #korpaOtv {
+        left: 30px;
+        width: 90%;
+    }
+    body{
+        margin-left: -40px;
+        margin-right: 0;
+    }
+}
